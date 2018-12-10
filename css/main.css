@@ -1,0 +1,113 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+padding: 0;
+background: url(`logo.png`);
+background-size: cover;
+background-color: black;
+
+}
+.bgvideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -9999;
+  }
+  div{
+      box-sizing: border-box;
+  }
+
+
+.container_main{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.clearfix::after{
+    content: icon;
+    display: table;
+    width: 100%;
+    clear: both; 
+}
+.logo4{
+    left: -350px;
+    bottom: 140px;
+    margin-top: 163px;
+    float: left;
+    position: relative;
+    clear: both;
+    
+
+}
+.title{
+    position: relative;
+     right: 0px;
+    font-size: 100px;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.3;
+    
+}
+.top{
+    max-width: 1200px;
+    min-width: 600px;
+}
+.videoinfo1 {
+     float: left;
+    position: relative;
+    clear: both;
+}
+.second{
+    top: 346px;
+    position: relative;
+    float: left;
+}
+p.textinfo1{
+    top: 80px;
+    height: 300px;
+    width: 450px;
+    font-size: 20px;
+    left: 0;
+    float: right;
+    position: relative;
+    color: grey;
+    font-family: italic;
+}
+.videoinfo2 {
+    top: 235px;
+       float: right;
+   position: relative;
+   clear: both;
+}
+p.textinfo2{
+    top: 335px;
+    height: 300px;
+    width: 450px;
+    font-size: 20px;
+    left: 20px;
+    float: left;
+    position: relative;
+    color: grey;
+    font-family: italic; 
+}
+.videoinfo3 {
+    top: 235px;
+       float: left;
+   position: relative;
+   clear: both;
+}
+p.textinfo3{
+    top: 335px;
+    height: 300px;
+    width: 450px;
+    font-size: 20px;
+    right: 10px;
+    float: right;
+    position: relative;
+    color: grey;
+    font-family: italic; 
+}
